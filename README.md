@@ -2,7 +2,7 @@
 <h3 align="center">🚀 DevOps Engineer | Cloud Security Enthusiast</h3>
 
 <p align="center">
-  
+  <img src="https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif" alt="DevOps Animation" />
 </p>
 
 
@@ -10,10 +10,7 @@
 
 
 
-
-
-<img src="https://github.com/sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/devops-animation.gif" alt="DevOps Animation" width="600"/>
-
+![devops](https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif)
 
 
 
@@ -21,7 +18,6 @@
 
 
 
-<img src="assets/devops-animation.gif" alt="DevOps Animation" width="600"/>
 
 
 
@@ -48,7 +44,8 @@
 
 
 
-![profile](https://github.com/sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/devops-animation.gif)
+<img src="https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif" alt="DevOps Animation" />
+
 
 
 
