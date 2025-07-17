@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Sujeet Kushwaha</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="certifications.html">Certifications</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+
+  <div class="container contact-page">
+    <h2>📞 Contact Me</h2>
+
+    <ul class="contact-links">
+      <li>
+        <a href="mailto:sujeetkushwaha14@gmail.com">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="icon" alt="Email Icon" />
+          Email Me: sujeetkushwaha14@gmail.com
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/sujeet-kushwaha-915619245" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" class="icon"
+            alt="LinkedIn" />
+          LinkedIn Profile
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/sujeetkumarkushawaha.kushawaha/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" class="icon" alt="Facebook" />
+          Facebook Profile
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/sujeetkushwaha14" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="icon"
+            alt="GitHub" />
+          GitHub Repositories
+        </a>
+      </li>
+    </ul>
+
+
+    <br>
+    <h3>💬 Leave Me a Message</h3>
+
+    <form id="demo-form" action="https://formsubmit.co/sujeetkushwaha14@gmail.com" method="POST" class="contact-form">
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_subject" value="New Feedback from Sujeet Portfolio!" />
+      <input type="hidden" name="_template" value="box" />
+      <input type="hidden" name="_next" value="https://sujeetkumarkushwaha.github.io/s/thankyou.html" />
+
+      <input type="text" name="name" placeholder="Your Name" id="user-name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message..." required></textarea>
+
+      <button type="submit">Send Feedback</button>
+    </form>
+
+    <!-- Place to show thank you message -->
+    <div id="thank-you-box" style="display:none; margin-top:20px; font-weight:bold;"></div>
+  </div>
+
+  <script>
+    const form = document.getElementById("demo-form");
+    const nameInput = document.getElementById("user-name");
+    const thankYouBox = document.getElementById("thank-you-box");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault(); // 👈 Stop immediate submission
+
+      const name = nameInput.value.trim();
+
+      if (name) {
+        thankYouBox.innerHTML = `🎉 Thank you, <span style="color:#0072ff">${name}</span> for your message!`;
+        thankYouBox.style.display = "block";
+
+        // 👇 Wait 2 seconds then submit & redirect
+        setTimeout(() => {
+          form.submit(); // Submit to FormSubmit
+
+          // 👇 Redirect after 1 more sec (formsubmit takes over)
+          setTimeout(() => {
+            // window.location.href = "thankyou.html"; //to un comment and check it local 
+          }, 500); // optional delay for visual smoothness
+        }, 2000);
+      }
+    });
+  </script>
+
+  <footer>
+    <p>© 2025 Sujeet Kushwaha. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
