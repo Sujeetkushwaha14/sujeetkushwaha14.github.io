@@ -8,7 +8,7 @@
 
 
 
-![Uploading Devops animation.gif…]()
+<img src="assets/devops-animation.gif" alt="DevOps Animation" width="600"/>
 
 
 
