@@ -53,8 +53,13 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grafana/grafana-original.svg" alt="Grafana" height="30"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original.svg" alt="Prometheus" height="30"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sonarqube/sonarqube-original.svg" alt="SonarQube" height="30"/>
-  <img src="https://raw.githubusercontent.com/bridgecrewio/checkov/master/docs/images/logo.png" alt="Checkov" height="30"/>
-  <img src="https://raw.githubusercontent.com/aquasecurity/tfsec/master/docs/img/logo.svg" alt="TFSec" height="30"/>
+  <img src="https://bridgecrew.io/wp-content/uploads/2021/01/checkov_logo.png" alt="Checkov" height="30"/>
+
+  <!-- TFSec -->
+  <img src="https://www.lambdatest.com/blog/wp-content/uploads/2023/03/Tfsec.png" alt="TFSec" height="30"/>
+
+  <!-- Snyk (optional, may not load always) -->
+  <img src="https://seeklogo.com/images/S/snyk-logo-6A70C0E8D8-seeklogo.com.png" alt="Snyk" height="30"/>
   </p>
 
 ---
