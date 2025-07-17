@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sujeet Kushwaha</h1>
-<h3 align="center">🚀 DevOps & Backend Engineer from India 🇮🇳</h3>
+<h3 align="center">🚀 DevOps Engineer </h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=DevOps+Engineer+%7C+Cloud+Security+Enthusiast;Python+%7C+Terraform+%7C+Azure+%7C+CI%2FCD+%7C+Docker+%7C+K8s;Loves+Automation+%26+Solving+Problems+💡" alt="Typing SVG" />
@@ -22,10 +22,10 @@
 ### 🌐 Connect with Me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/sujeetkushwaha14/" target="blank">
+  <a href="www.linkedin.com/in/sujeet-kushwaha-915619245" target="blank">
     <img src="https://img.icons8.com/color/48/linkedin.png" height="30" alt="LinkedIn" />
   </a>
-  <a href="https://instagram.com/m__sujeet" target="blank">
+  <a href="https://instagram.com/sujeet2527" target="blank">
     <img src="https://img.icons8.com/color/48/instagram-new--v1.png" height="30" alt="Instagram" />
   </a>
   <a href="mailto:sujeetkushwaha14@gmail.com" target="blank">
