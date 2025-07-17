@@ -1,86 +1,3 @@
-/* 📱 Responsive Fixes for Mobile View */
-
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    padding: 0;
-  }
-
-  nav {
-    text-align: center;
-  }
-
-  nav a {
-    display: block;
-    margin: 0.5rem 0;
-  }
-
-  .container,
-  .about-page,
-  .contact-form,
-  .hero-content p,
-  .project-card,
-  .cert-card,
-  .skill-card {
-    width: 100%;
-    padding: 1rem;
-    box-sizing: border-box;
-  }
-
-  .hero {
-    flex-direction: column;
-    height: auto;
-    padding: 2rem 1rem;
-  }
-
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-
-  .hero-content h2 {
-    font-size: 1.3rem;
-  }
-
-  .profile-pic {
-    width: 140px;
-    height: 140px;
-  }
-
-  .about-section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .typing-text, .wrap {
-    max-width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 1.2rem;
-  }
-
-  .skill-card h3 {
-    font-size: 1.05rem;
-    text-align: center;
-  }
-
-  .skill-card p,
-  .cert-card a,
-  .project-card p {
-    font-size: 0.9rem;
-  }
-
-  .page-title {
-    font-size: 1.6rem;
-    text-align: center;
-  }
-
-  footer {
-    font-size: 0.9rem;
-    padding: 1rem 0.5rem;
-  }
-}
-
 /* index starting from here */
 
 body {
@@ -539,4 +456,87 @@ body {
   vertical-align: middle;
   margin-right: 8px;
   border-radius: 4px;
+}
+
+/* 📱 Responsive Fixes for Mobile View */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .container,
+  .about-page,
+  .contact-form,
+  .hero-content p,
+  .project-card,
+  .cert-card,
+  .skill-card {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .profile-pic {
+    width: 140px;
+    height: 140px;
+  }
+
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .typing-text, .wrap {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.2rem;
+  }
+
+  .skill-card h3 {
+    font-size: 1.05rem;
+    text-align: center;
+  }
+
+  .skill-card p,
+  .cert-card a,
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 1rem 0.5rem;
+  }
 }
