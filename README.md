@@ -8,6 +8,7 @@
   <img src="https://sujeetkushwaha14.github.io/assets/typing-devops.svg" alt="DevOps Typing Animation" />
 </p>
 
+![profile](https://github.com/user-attachments/assets/d553c573-989b-4f84-a9c7-adbcc1dbbaa9)
 
 ---
 
