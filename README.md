@@ -25,14 +25,11 @@
 <p align="left">
   <a href="https://www.linkedin.com/in/sujeet-kushwaha-915619245" target="_blank">
     <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" height="30" />
-  </a>
-  <li>
+  </a>  
   <a href="https://www.instagram.com/sujeet2527/" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="icon" alt="Instagram" />
     Instagram Profile
   </a>
-</li>
-
   <a href="mailto:sujeetkushwaha14@gmail.com" target="_blank">
     <img src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail" height="30" />
   </a>
