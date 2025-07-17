@@ -2,9 +2,9 @@
 <h3 align="center">🚀 DevOps Engineer | Cloud Security Enthusiast</h3>
 
 <p align="center">
-  ![profile](https://github.com/user-attachments/assets/d553c573-989b-4f84-a9c7-adbcc1dbbaa9)
+  
 </p>
-
+![profile](https://github.com/user-attachments/assets/d553c573-989b-4f84-a9c7-adbcc1dbbaa9)
 
 
 ---
