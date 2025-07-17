@@ -1,5 +1,3 @@
- ![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=Sujeetkushwaha14&left_color=blue&right_color=green)
-
 <h1 align="center">Hi 👋, I'm Sujeet Kushwaha</h1>
 <h3 align="center">🚀 DevOps Engineer</h3>
 
@@ -20,9 +18,10 @@
     </td>
   </tr>
 </table>
----
-### 🌐 Connect with Me
 
+---
+
+**### 🌐 Connect with Me**
 <p align="left">
   <a href="https://www.linkedin.com/in/sujeet-kushwaha-915619245" target="_blank">
     <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" height="30" />
@@ -35,9 +34,10 @@
   </a>
 </p>
 
+--- 
+
 ### 🛠️ Skills & Tools
-<p>
----  
+<p> 
 <!--   <img src="https://img.icons8.com/color/48/html-5--v1.png" alt="HTML" height="30"/>
   <img src="https://img.icons8.com/color/48/css3.png" alt="CSS" height="30"/>
   <img src="https://img.icons8.com/color/48/javascript--v1.png" alt="JavaScript" height="30"/> -->
