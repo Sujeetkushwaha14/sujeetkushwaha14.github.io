@@ -2,9 +2,11 @@
 <h3 align="center">🚀 DevOps Engineer | Cloud Security Enthusiast</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=F70000&center=true&vCenter=true&width=500&lines=DevOps+Engineer+%7C+Cloud+Security+Enthusiast;Python+%7C+Terraform+%7C+Azure+%7C+CI%2FCD+%7C+Docker+%7C+K8s;Loves+Automation+%26+Solving+Problems+💡" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=F70000&width=500&center=true&vCenter=true&lines=DevOps+Engineer+%7C+Cloud+Security+Enthusiast;Python+%7C+Terraform+%7C+Azure+%7C+CI%2FCD+%7C+Docker+%7C+K8s;Loves+Automation+%26+Solving+Problems+💡" alt="Typing SVG" />
 </p>
-
+<p align="center">
+  <img src="https://sujeetkushwaha14.github.io/assets/typing-devops.svg" alt="DevOps Typing Animation" />
+</p>
 
 
 ---
