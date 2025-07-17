@@ -1,4 +1,4 @@
- ![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=Sujeetkushwaha14&left_color=blue&right_color=green)
+                              ![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=Sujeetkushwaha14&left_color=blue&right_color=green)
 <h1 align="center">Hi 👋, I'm Sujeet Kushwaha</h1>
 <h3 align="center">🚀 DevOps Engineer</h3>
 
@@ -15,6 +15,7 @@
         <li>👀 Visitors: <img src="https://visitor-badge.laobi.icu/badge?page_id=Sujeetkushwaha14&left_color=blue&right_color=green"/></li>
       </ul>
     </td>
+    
     <td>
       <img src="https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif" width="300px" alt="DevOps Animation"/>
     </td>
