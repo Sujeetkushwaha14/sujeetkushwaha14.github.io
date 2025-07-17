@@ -8,13 +8,14 @@
 - 👨‍💼 I’m **Sujeet Kushwaha**, a DevOps Engineer at **Atlantis Intelligence Pvt Ltd**
 - ☁️ I work on **Azure | Terraform | Kubernetes | CI/CD | Docker | GitHub Actions**
 - 🔐 Interested in **Cloud Security** & DevSecOps automation
-- <p align="right">
-  <img src="https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif" alt="DevOps Animation" />
-</p>
 - 🧠 Currently exploring **AKS, monitoring, and production-ready pipelines**
 - 📫 Reach me at: **sujeetkushwaha14@gmail.com**
 - 🔗 Portfolio: [sujeetkushwaha14.github.io](https://sujeetkushwaha14.github.io)
 - 📄 [Download My Resume](https://drive.google.com/file/d/1l_dAf-FQst61Q-ck6XN8l-vPiQvxYOvY/view?usp=sharing)
+<p align="right">
+  <img src="https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif" alt="DevOps Animation" />
+  </p>
+  ![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=Sujeetkushwaha14&left_color=blue&right_color=green)
 
 ---
 
