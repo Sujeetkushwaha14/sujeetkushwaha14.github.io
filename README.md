@@ -53,7 +53,8 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grafana/grafana-original.svg" alt="Grafana" height="30"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original.svg" alt="Prometheus" height="30"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sonarqube/sonarqube-original.svg" alt="SonarQube" height="30"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/snyk/snyk-original.svg" alt="Snyk" height="30"/>
+  <img src="https://raw.githubusercontent.com/bridgecrewio/checkov/master/docs/images/logo.png" alt="Checkov" height="30"/>
+  <img src="https://raw.githubusercontent.com/aquasecurity/tfsec/master/docs/img/logo.svg" alt="TFSec" height="30"/>
   </p>
 
 ---
