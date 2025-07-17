@@ -8,6 +8,19 @@
 
 
 
+
+
+
+
+<img src="https://github.com/sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/devops-animation.gif" alt="DevOps Animation" width="600"/>
+
+
+
+
+
+
+
+
 <img src="assets/devops-animation.gif" alt="DevOps Animation" width="600"/>
 
 
@@ -34,7 +47,8 @@
 
 
 
-![profile](https://github.com/user-attachments/assets/d553c573-989b-4f84-a9c7-adbcc1dbbaa9)
+
+![profile](https://github.com/sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/devops-animation.gif)
 
 
 
