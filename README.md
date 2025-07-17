@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sujeet Kushwaha</h1>
 <h3 align="center">🚀 DevOps Engineer | Cloud Security Enthusiast</h3>
 ---
-<p align="right">
-  <img src="https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif" alt="DevOps Animation" />
-</p>
+
 ### 🧑‍💻 About Me
 
 - 👨‍💼 I’m **Sujeet Kushwaha**, a DevOps Engineer at **Atlantis Intelligence Pvt Ltd**
@@ -13,7 +11,9 @@
 - 📫 Reach me at: **sujeetkushwaha14@gmail.com**
 - 🔗 Portfolio: [sujeetkushwaha14.github.io](https://sujeetkushwaha14.github.io)
 - 📄 [Download My Resume](https://drive.google.com/file/d/1l_dAf-FQst61Q-ck6XN8l-vPiQvxYOvY/view?usp=sharing)
-
+<p align="right">
+  <img src="https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif" alt="DevOps Animation" />
+</p>
 ---
 
 ### 🌐 Connect with Me
