@@ -37,10 +37,7 @@
 --- 
 
 ### 🛠️ Skills & Tools
-<p> 
-<!--   <img src="https://img.icons8.com/color/48/html-5--v1.png" alt="HTML" height="30"/>
-  <img src="https://img.icons8.com/color/48/css3.png" alt="CSS" height="30"/>
-  <img src="https://img.icons8.com/color/48/javascript--v1.png" alt="JavaScript" height="30"/> -->
+<p>
   <img src="https://img.icons8.com/color/48/python--v1.png" alt="Python" height="30"/>
   <img src="https://img.icons8.com/color/48/azure-1.png" alt="Azure" height="30"/>
   <img src="https://img.icons8.com/fluency/48/docker.png" alt="Docker" height="30"/>
@@ -50,7 +47,12 @@
   <img src="https://img.icons8.com/color/48/github.png" alt="GitHub" height="30"/>
   <img src="https://img.icons8.com/color/48/linux.png" alt="Linux" height="30"/>
   <img src="https://img.icons8.com/color/48/bash.png" alt="Bash" height="30"/>
+  <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-prometheus-an-open-source-systems-monitoring-and-alerting-toolkit-logo-color-tal-revivo.png" alt="Prometheus" height="30"/>
+  <img src="https://img.icons8.com/color/48/grafana.png" alt="Grafana" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg" alt="SonarQube" height="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/snyk/snyk-original.svg" alt="Snyk" height="30"/>
 </p>
+
 
 ---
 
