@@ -10,8 +10,12 @@
 - 🔐 Interested in **Cloud Security** & DevSecOps automation
 - 🧠 Currently exploring **AKS, monitoring, and production-ready pipelines**
 - 📫 Reach me at: **sujeetkushwaha14@gmail.com**
+
+- 
 - 🔗 Portfolio: [sujeetkushwaha14.github.io](https://sujeetkushwaha14.github.io)
 - 📄 [Download My Resume](https://drive.google.com/file/d/1l_dAf-FQst61Q-ck6XN8l-vPiQvxYOvY/view?usp=sharing)
+
+- 
  ![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=Sujeetkushwaha14&left_color=blue&right_color=green)
 - 
 <p align="right">
