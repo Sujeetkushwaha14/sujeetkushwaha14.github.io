@@ -1,3 +1,26 @@
+<table>
+  <tr>
+    <td width="60%">
+      
+### 👨‍💻 DevOps Engineer | Cloud & Security Enthusiast
+
+🚀 Experienced in automating infrastructure & deployments using Terraform, GitHub Actions, and Azure DevOps.  
+🔐 Passionate about cloud security, CI/CD pipelines, and Kubernetes-based scalable architectures.  
+🛠️ Skilled in Docker, Linux, Bash scripting, and proactive system monitoring.  
+📈 Always learning, always shipping, always securing.
+
+🔧 **Tools & Tech Stack:**  
+Azure • Terraform • Kubernetes • Docker • GitHub • GitHub Actions • Linux • Bash • Prometheus • Grafana • Azure Monitor
+
+📬 [sujeetkushwaha14@gmail.com](mailto:sujeetkushwaha14@gmail.com)  
+🌐 [Portfolio Website](https://sujeetkushwaha14.github.io)
+
+    </td>
+    <td>
+      <img src="https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif" width="250px" alt="DevOps Animation"/>
+    </td>
+  </tr>
+</table>
 <h1 align="center">Hi 👋, I'm Sujeet Kushwaha</h1>
 <h3 align="center">🚀 DevOps Engineer | Cloud Security Enthusiast</h3>
 ---
