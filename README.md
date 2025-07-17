@@ -10,11 +10,11 @@
 
 
 
-                                                                  ![devops](https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif)
 
 
 
 
+                               ![devops](https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops%20animation.gif)
 
 
 
