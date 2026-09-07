@@ -15,9 +15,18 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <style>
-    .devops-live-box{margin-top:22px;padding:12px;border:1px solid rgba(98,168,255,.22);border-radius:22px;background:rgba(255,255,255,.025);box-shadow:0 18px 55px rgba(0,0,0,.22);overflow:hidden}
+    .devops-showcase{margin-top:10px;padding:30px;border:1px solid rgba(98,168,255,.18);border-radius:24px;background:linear-gradient(145deg,rgba(14,29,48,.78),rgba(7,17,31,.65));box-shadow:0 20px 60px rgba(0,0,0,.2)}
+    .devops-showcase-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+    .devops-showcase h2{margin:8px 0 10px;font-size:clamp(2rem,4vw,3rem)}
+    .devops-showcase-copy{color:#9fb0c7;line-height:1.8;max-width:600px}
+    .devops-live-box{padding:14px;border:1px solid rgba(98,168,255,.2);border-radius:20px;background:rgba(255,255,255,.025)}
     .devops-live-box img{display:block;width:100%;max-width:520px;height:auto;max-height:300px;object-fit:contain;margin:auto;border-radius:14px}
-    .devops-live-label{text-align:center;margin:10px 0 2px;color:#9fb0c7;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700}
+    .devops-live-label{text-align:center;margin:12px 0 0;color:#9fb0c7;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700}
+    .workflow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}
+    .workflow-step{padding:14px;border:1px solid rgba(255,255,255,.07);border-radius:14px;background:rgba(255,255,255,.025)}
+    .workflow-step strong{display:block;font-family:'Space Grotesk';margin-bottom:4px}.workflow-step span{color:#9fb0c7;font-size:.75rem}
+    @media(max-width:800px){.devops-showcase-grid{grid-template-columns:1fr}.workflow{grid-template-columns:1fr 1fr}.devops-showcase{padding:20px}}
+    @media(max-width:480px){.workflow{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -54,6 +63,24 @@
         <div class="hero-card reveal">
           <img class="profile-photo" src="assets/sujeet-profile.png" alt="Sujeet Kushwaha - DevOps Engineer">
           <div class="status">● <b>Open to meaningful opportunities</b><br>Cloud • DevOps • MLOps</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:10px">
+      <div class="container devops-showcase reveal">
+        <div class="devops-showcase-grid">
+          <div>
+            <span class="eyebrow">DevOps in Action</span>
+            <h2>Build <span class="gradient">• Automate • Deploy • Scale</span></h2>
+            <p class="devops-showcase-copy">Turning ideas into scalable, secure and automated infrastructure — from code and CI/CD pipelines to cloud deployments and continuous improvement.</p>
+            <div class="workflow">
+              <div class="workflow-step"><strong>⌘ Write Code</strong><span>Plan & Collaborate</span></div>
+              <div class="workflow-step"><strong>⚙ Automate</strong><span>CI/CD Pipelines</span></div>
+              <div class="workflow-step"><strong>☁ Deploy</strong><span>Cloud & Containers</span></div>
+              <div class="workflow-step"><strong>↗ Scale</strong><span>Monitor & Improve</span></div>
+            </div>
+          </div>
           <div class="devops-live-box">
             <img src="https://github.com/Sujeetkushwaha14/sujeetkushwaha14.github.io/raw/main/assets/Devops-animat.gif" alt="Live DevOps Animation" loading="eager">
             <div class="devops-live-label">Live DevOps Animation</div>
