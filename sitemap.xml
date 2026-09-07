@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://sujeetkushwaha14.github.io/</loc>
-    <lastmod>2025-07-18</lastmod>
+    <loc>https://sujeetkushwaha.shop/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <image:image>
+      <image:loc>https://sujeetkushwaha.shop/assets/sujeet-home.png</image:loc>
+      <image:title>Sujeet Kushwaha - DevOps Engineer</image:title>
+      <image:caption>Sujeet Kushwaha, DevOps and MLOps Engineer</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://sujeetkushwaha14.github.io/about.html</loc>
-    <lastmod>2025-07-18</lastmod>
+    <loc>https://sujeetkushwaha.shop/about.html</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://sujeetkushwaha14.github.io/skills.html</loc>
-    <lastmod>2025-07-18</lastmod>
+    <loc>https://sujeetkushwaha.shop/skills.html</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://sujeetkushwaha14.github.io/projects.html</loc>
-    <lastmod>2025-07-18</lastmod>
+    <loc>https://sujeetkushwaha.shop/projects.html</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://sujeetkushwaha14.github.io/certifications.html</loc>
-    <lastmod>2025-07-18</lastmod>
+    <loc>https://sujeetkushwaha.shop/certifications.html</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://sujeetkushwaha14.github.io/contact.html</loc>
-    <lastmod>2025-07-18</lastmod>
-  </url>
-  <url>
-    <loc>https://sujeetkushwaha14.github.io/thankyou.html</loc>
-    <lastmod>2025-07-18</lastmod>
+    <loc>https://sujeetkushwaha.shop/contact.html</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
 </urlset>
