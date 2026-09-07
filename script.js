@@ -1,57 +1,51 @@
-
 document.addEventListener('DOMContentLoaded', () => {
-  const current = location.pathname.split("/").pop();
-  document.querySelectorAll("nav a").forEach(link => {
-    if (link.getAttribute("href") === current) {
-      link.style.borderBottom = "2px solid yellow";
+  // Mobile navigation
+  const toggle = document.querySelector('.menu-toggle');
+  const links = document.querySelector('.nav-links');
+  if (toggle && links) {
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.textContent = open ? '✕' : '☰';
+    });
+    links.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.textContent = '☰';
+    }));
+  }
+
+  // Typewriter effect
+  document.querySelectorAll('.typewrite').forEach(el => {
+    let items = [];
+    try { items = JSON.parse(el.dataset.type || '[]'); } catch (_) { items = []; }
+    if (!items.length) return;
+    let index = 0, text = '', deleting = false;
+    const period = Number(el.dataset.period || 1800);
+    function tick() {
+      const full = items[index % items.length];
+      text = deleting ? full.substring(0, text.length - 1) : full.substring(0, text.length + 1);
+      el.textContent = text;
+      let delay = deleting ? 45 : 90;
+      if (!deleting && text === full) { delay = period; deleting = true; }
+      else if (deleting && text === '') { deleting = false; index++; delay = 350; }
+      setTimeout(tick, delay);
     }
+    tick();
   });
+
+  // WhatsApp contact form
+  const form = document.getElementById('whatsapp-form');
+  if (form) {
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const name = document.getElementById('wa-name').value.trim();
+      const email = document.getElementById('wa-email').value.trim();
+      const message = document.getElementById('wa-message').value.trim();
+      if (!name || !email || !message) return;
+      const text = `Hi Sujeet,\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}\n\nSent from your portfolio.`;
+      const url = `https://wa.me/917900440023?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank', 'noopener,noreferrer');
+    });
+  }
 });
-
-// Typewriter effect for rotating roles
-const TxtType = function(el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
-  this.txt = '';
-  this.tick();
-  this.isDeleting = false;
-};
-
-TxtType.prototype.tick = function() {
-  const i = this.loopNum % this.toRotate.length;
-  const fullTxt = this.toRotate[i];
-
-  this.txt = this.isDeleting
-    ? fullTxt.substring(0, this.txt.length - 1)
-    : fullTxt.substring(0, this.txt.length + 1);
-
-  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-  let delta = 200 - Math.random() * 100;
-
-  if (this.isDeleting) { delta /= 2; }
-
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-  }
-
-  setTimeout(() => { this.tick(); }, delta);
-};
-
-window.onload = function() {
-  const elements = document.getElementsByClassName('typewrite');
-  for (let i = 0; i < elements.length; i++) {
-    const toRotate = elements[i].getAttribute('data-type');
-    const period = elements[i].getAttribute('data-period');
-    if (toRotate) {
-      new TxtType(elements[i], JSON.parse(toRotate), period);
-    }
-  }
-};
