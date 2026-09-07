@@ -1,55 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <title>Projects | Sujeet Kushwaha</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-</head>
-
-<body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html" class="active">Projects</a>
-    <a href="certifications.html">Certifications</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <div class="container">
-    <h2 class="page-title">🚀 Projects Showcase</h2>
-
-    <div class="project-card">
-      <i class="fa-solid fa-laptop-code"></i>
-      <h3>Online Exam System</h3>
-      <p>A full-stack Flask application deployed on Azure VM using GitHub Actions. Handles login, exam timer,
-        auto-submit, and result workflow with student report generation.</p>
-      <span class="tech-used">Python • Flask • Azure VM • CI/CD • Waitress</span>
-    </div>
-
-    <div class="project-card">
-      <i class="fa-brands fa-microsoft"></i>
-      <h3>AKS Production Setup</h3>
-      <p>Provisioned secure AKS cluster with Terraform modules. Integrated Azure Storage, monitoring via Prometheus +
-        Grafana, and NSG + private endpoint for database connectivity.</p>
-      <span class="tech-used">Terraform • AKS • Azure Storage • Grafana • NSG</span>
-    </div>
-
-    <div class="project-card">
-      <i class="fa-solid fa-gears"></i>
-      <h3>CI/CD Infrastructure</h3>
-      <p>Automated end-to-end infrastructure + app deployment using GitHub Actions and Azure Pipelines. Includes static
-        code analysis (SonarQube) and image scan (Trivy).</p>
-      <span class="tech-used">GitHub Actions • Azure Pipelines • Trivy • SonarQube</span>
-    </div>
-  </div>
-
-  <footer>
-    <p>© 2026 Sujeet Kushwaha. All rights reserved.</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
-
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Projects | Sujeet Kushwaha</title><meta name="description" content="Cloud, DevOps, CI/CD, MLOps and CDN projects by Sujeet Kushwaha."><link rel="stylesheet" href="style.css"></head><body>
+<nav><div class="nav-inner"><a class="brand" href="index.html">SK<span>.</span></a><button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button><div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a class="active" href="projects.html">Projects</a><a href="certifications.html">Certifications</a><a href="contact.html">Contact</a></div></div></nav>
+<main><div class="container page-hero"><span class="eyebrow">Selected work</span><h1>Projects that mirror real production workflows.</h1><p>Cloud infrastructure, delivery automation, security and observability projects based on the latest resume.</p></div><section class="section" style="padding-top:25px"><div class="container grid-2">
+<article class="card"><div class="project-icon">☁️</div><h3>End-to-End Automated Deployment — Azure</h3><p>Designed a complete Azure CI/CD platform using Terraform and Azure DevOps. Provisioned VNet, VMs, Azure SQL and AKS; added YAML pipelines, Snyk scanning, Key Vault, RBAC, Azure Monitor and Grafana.</p><div class="tags"><span class="tag">Terraform</span><span class="tag">Azure DevOps</span><span class="tag">AKS</span><span class="tag">Key Vault</span><span class="tag">Grafana</span></div></article>
+<article class="card"><div class="project-icon">⚙️</div><h3>Multi-Tier Infrastructure with CI/CD — AWS</h3><p>Built a secure multi-tier AWS architecture with modular Terraform, VPC, EC2, RDS, S3 and EKS. Connected GitHub to CodePipeline/CodeBuild and added Trivy, Checkov, Secrets Manager, CloudWatch and Prometheus/Grafana.</p><div class="tags"><span class="tag">AWS</span><span class="tag">Terraform</span><span class="tag">EKS</span><span class="tag">CodePipeline</span><span class="tag">Trivy</span></div></article>
+<article class="card"><div class="project-icon">🔷</div><h3>Cloud-Native CI/CD — GCP</h3><p>Implemented an end-to-end GCP delivery workflow with Terraform and Cloud Build. Provisioned Compute Engine, GCS, Cloud SQL and GKE, with automated triggers, SonarQube, Kube-bench and centralized logging/alerts.</p><div class="tags"><span class="tag">GCP</span><span class="tag">GKE</span><span class="tag">Cloud Build</span><span class="tag">Terraform</span><span class="tag">SonarQube</span></div></article>
+<article class="card"><div class="project-icon">🌐</div><h3>Multi-Cloud CDN & Edge Delivery</h3><p>Configured CloudFront, Azure CDN, Google Cloud CDN and Cloudflare with DNS, custom domains, SSL/TLS, caching, origin configuration and invalidation. Added WAF/security rules and Terraform/CI/CD automation.</p><div class="tags"><span class="tag">CloudFront</span><span class="tag">Azure CDN</span><span class="tag">Cloud CDN</span><span class="tag">Cloudflare</span><span class="tag">WAF</span></div></article>
+</div></section></main><footer><div class="container footer-inner"><span>© 2026 Sujeet Kushwaha</span><span>Infrastructure • CI/CD • Cloud Security</span></div></footer><script src="script.js"></script></body></html>
