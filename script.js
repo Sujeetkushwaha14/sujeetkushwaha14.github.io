@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }));
   }
 
-  // Instagram-style mobile bottom navigation
+  // App-style mobile bottom navigation
   const navLinks = document.querySelectorAll('.nav-links a');
   if (navLinks.length) {
     const bottomNav = document.createElement('div');
@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'skills.html': '⚙',
       'projects.html': '▣',
       'certifications.html': '✓',
+      'https://sujeetkushwaha14.github.io/DevopsQuiz/': '🧠',
       'contact.html': '✉'
     };
     const labels = {
@@ -34,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'skills.html': 'Skills',
       'projects.html': 'Projects',
       'certifications.html': 'Certs',
+      'https://sujeetkushwaha14.github.io/DevopsQuiz/': 'Quiz',
       'contact.html': 'Contact'
     };
     const current = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
@@ -41,10 +43,15 @@ document.addEventListener('DOMContentLoaded', () => {
     navLinks.forEach(link => {
       const href = (link.getAttribute('href') || '').split('#')[0];
       const file = href.split('/').pop().toLowerCase() || 'index.html';
+      // Keep Certifications in the desktop top navbar, but replace it with Quiz on mobile.
+      if (file === 'certifications.html') return;
       const item = document.createElement('a');
       item.href = href;
       if (file === current) item.classList.add('active');
-      item.innerHTML = `<span class="nav-icon">${icons[file] || '•'}</span><span>${labels[file] || link.textContent.trim()}</span>`;
+      if (href.includes('/DevopsQuiz/')) item.target = '_blank';
+      item.rel = 'noopener';
+      const key = href.includes('/DevopsQuiz/') ? 'https://sujeetkushwaha14.github.io/DevopsQuiz/' : file;
+      item.innerHTML = `<span class="nav-icon">${icons[key] || '•'}</span><span>${labels[key] || link.textContent.trim()}</span>`;
       bottomNav.appendChild(item);
     });
 
@@ -65,12 +72,9 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     document.head.appendChild(style);
 
-    let lastY = window.scrollY;
     const updateBottomNav = () => {
-      const y = window.scrollY;
-      if (y > 100) bottomNav.classList.add('visible');
+      if (window.scrollY > 100) bottomNav.classList.add('visible');
       else bottomNav.classList.remove('visible');
-      lastY = y;
     };
     window.addEventListener('scroll', updateBottomNav, { passive: true });
     updateBottomNav();
@@ -101,10 +105,9 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', event => {
       event.preventDefault();
       const name = document.getElementById('wa-name').value.trim();
-      const email = document.getElementById('wa-email').value.trim();
       const message = document.getElementById('wa-message').value.trim();
-      if (!name || !email || !message) return;
-      const text = `Hi Sujeet,\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}\n\nSent from your portfolio.`;
+      if (!name || !message) return;
+      const text = `Hello Sujeet,\n\nName: ${name}\nMessage: ${message}`;
       const url = `https://wa.me/917900440023?text=${encodeURIComponent(text)}`;
       window.open(url, '_blank', 'noopener,noreferrer');
     });
