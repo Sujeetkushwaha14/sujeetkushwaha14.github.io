@@ -115,7 +115,7 @@ h1 .gradient { background: linear-gradient(90deg, #fff, #9fc8ff 48%, #a99dff); -
   border: 1px solid var(--line); box-shadow: var(--shadow);
 }
 .hero-card::before { content: ''; position: absolute; inset: 12% -15% auto; height: 180px; background: rgba(98,168,255,.18); filter: blur(65px); z-index: -1; }
-.profile-photo { width: 100%; aspect-ratio: 1/1; object-fit: cover; object-position: center; border-radius: 22px; display: block; background: #10233a; }
+.profile-photo { width: 100%; height: 500px; aspect-ratio: auto; object-fit: cover; object-position: center; border-radius: 22px; display: block; background: #10233a; }
 .status {
   position: absolute; left: 30px; bottom: 30px; padding: 11px 14px; border-radius: 13px;
   background: rgba(4,11,20,.86); border: 1px solid var(--line); backdrop-filter: blur(12px);
@@ -185,6 +185,7 @@ footer { margin-top: 60px; border-top: 1px solid var(--line); padding: 28px 0; c
   .hero-grid, .contact-grid { grid-template-columns: 1fr; }
   .hero { padding-top: 75px; }
   .hero-card { max-width: 520px; margin: 0 auto; }
+  .profile-photo { height: 500px; }
   .grid-3 { grid-template-columns: 1fr 1fr; }
   .stat-grid { grid-template-columns: repeat(2,1fr); }
 }
@@ -205,6 +206,7 @@ footer { margin-top: 60px; border-top: 1px solid var(--line); padding: 28px 0; c
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
   .stat-grid { grid-template-columns: 1fr 1fr; }
   .card { padding: 20px; border-radius: 18px; }
+  .profile-photo { height: 420px; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
 }
 
